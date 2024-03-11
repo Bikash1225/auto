@@ -1,13 +1,13 @@
 import re
 from pyrogram import Client, filters
 
-#from config import API_ID, API_HASH, SESSION
+from config import API_ID, API_HASH, SESSIONX
 
 app = Client(
      name='t',
-     api_id=6258636,
-     api_hash=72e82ac4cfe8fe0df32860140fc8014d,
-     session_string=str(AQBff8wAHT9POWHDFxWU7vF_S-nW8JK_-LU5y3EqzWICbd0zK5m2gfmm8vxZXVCVEH6wiiHNrrzDf5f4rZ8wDxKQev0GgFrOA3c4fnmZu6fzEIbEoOXKJE798YRSWZZgiz1d9Yy-ZFjp6dCCwz4hbREyYZ2oxfl_2vrhMRLIhfuyboMBQXox23R5017Dk6wne4hcf1MHb34glMTfwnxOvjin9hoyjsj0WIodnsuUYeqVh-vyNCGn2ST-5RK4ta5Ttwp5dT-fjWci3-37PR6GCWjvrs927aR3Ehy8_NT2Tgv_fWEhPeG5wFWSwXOH8Lp14Kxv7xqovfMM5xSLg7l9mtgZ6PxMlgAAAAFskm5GAA),
+     api_id=API_ID,
+     api_hash=API_HASH,
+     session_string=str(SESSIONX),
      in_memory=True,
 )
 
